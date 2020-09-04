@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'go run cmd/service/main.go'
+    command: 'go run cmd/service/main.go'
